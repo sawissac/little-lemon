@@ -74,7 +74,7 @@ export function getSectionListData(data) {
     return result;
   }
 
-  return SECTION_LIST_MOCK_DATA;
+  return [];
 }
 
 export function useUpdateEffect(effect, dependencies = []) {
